@@ -59,3 +59,12 @@
 2024-12-05 03:17:58 [info]: 127.0.0.1 - - [04/Dec/2024:21:47:58 +0000] "POST /api/reRoute/Gps HTTP/1.1" 200 275 "-" "PostmanRuntime/7.43.0"
 2024-12-05 03:18:51 [info]: GPS-REROUTE-RESPONSE: Vessel location saved successfully.
 2024-12-05 03:18:51 [info]: 127.0.0.1 - - [04/Dec/2024:21:48:51 +0000] "POST /api/reRoute/Gps HTTP/1.1" 200 275 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:23:19 [info]: GPS-REROUTE-RESPONSE: Vessel location saved successfully.
+2024-12-05 03:23:19 [info]: 127.0.0.1 - - [04/Dec/2024:21:53:19 +0000] "POST /api/reRoute/Gps HTTP/1.1" 200 275 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:24:53 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.1232113.32432","s":1}
+2024-12-05 03:24:53 [error]: GPS GATEWAY : Request failed with status code 400
+2024-12-05 03:24:53 [info]: 127.0.0.1 - - [04/Dec/2024:21:54:53 +0000] "POST /lora/sendData HTTP/1.1" 500 33 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:25:04 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.12321|13.32432","s":1}
+2024-12-05 03:25:04 [info]: GPS GATEWAY : AT+SEND=1,128|0000|80.12321|13.32432|1,0,3
+
+2024-12-05 03:25:04 [info]: 127.0.0.1 - - [04/Dec/2024:21:55:04 +0000] "POST /lora/sendData HTTP/1.1" 200 27 "-" "PostmanRuntime/7.43.0"
