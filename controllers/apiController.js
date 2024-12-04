@@ -2,6 +2,7 @@ const {
   forwardVesselDataToHotspot,
   forwardVesselDataToWebServer,
 } = require("../services/apiService");
+const logger = require('../utils/logger');
 
 const reRouteGpsData = async (req, res) => {
   const { id, l, s } = req.body;
@@ -27,7 +28,7 @@ const reRouteGpsData = async (req, res) => {
       apiResponse = await forwardVesselDataToWebServer(formattedData);
     }
 
-    console.log(apiResponse);
+    logger.info(`GPS-REROUTE-RESPONSE: ${apiResponse.message}`);
 
     res.status(200).json({
       success: true,

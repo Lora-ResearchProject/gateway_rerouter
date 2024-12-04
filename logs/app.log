@@ -1,0 +1,61 @@
+2024-12-05 02:53:20 [info]: 127.0.0.1 - - [04/Dec/2024:21:23:20 +0000] "POST /lora/sendData HTTP/1.1" 200 27 "-" "PostmanRuntime/7.43.0"
+2024-12-05 02:56:05 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.12321|13.32432","s":1}
+2024-12-05 02:56:05 [info]: GPS GATEWAY : undefined
+2024-12-05 02:56:05 [info]: 127.0.0.1 - - [04/Dec/2024:21:26:05 +0000] "POST /lora/sendData HTTP/1.1" 200 27 "-" "PostmanRuntime/7.43.0"
+2024-12-05 02:58:01 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.12321|13.32432","s":1}
+2024-12-05 02:58:01 [info]: GPS GATEWAY : undefined
+2024-12-05 02:58:01 [info]: 127.0.0.1 - - [04/Dec/2024:21:28:01 +0000] "POST /lora/sendData HTTP/1.1" 200 27 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:00:04 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.12321|13.32432","s":1}
+2024-12-05 03:00:04 [info]: GPS GATEWAY : undefined
+2024-12-05 03:00:04 [error]: GPS GATEWAY :
+2024-12-05 03:00:04 [info]: 127.0.0.1 - - [04/Dec/2024:21:30:04 +0000] "POST /lora/sendData HTTP/1.1" 500 33 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:00:34 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.12321|13.32432","s":1}
+2024-12-05 03:00:34 [info]: GPS GATEWAY : undefined
+2024-12-05 03:00:34 [error]: GPS GATEWAY :
+2024-12-05 03:00:34 [info]: 127.0.0.1 - - [04/Dec/2024:21:30:34 +0000] "POST /lora/sendData HTTP/1.1" 500 33 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:00:49 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.12321|13.32432","s":1}
+2024-12-05 03:00:49 [info]: GPS GATEWAY : undefined
+2024-12-05 03:00:49 [info]: 127.0.0.1 - - [04/Dec/2024:21:30:49 +0000] "POST /lora/sendData HTTP/1.1" 200 27 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:03:31 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.12321|13.32432","s":1}
+2024-12-05 03:03:32 [info]: GPS GATEWAY : undefined
+2024-12-05 03:03:32 [error]: GPS GATEWAY :
+2024-12-05 03:03:32 [info]: 127.0.0.1 - - [04/Dec/2024:21:33:32 +0000] "POST /lora/sendData HTTP/1.1" 500 33 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:03:51 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.12321|13.32432","s":1}
+2024-12-05 03:03:51 [info]: GPS GATEWAY : undefined
+2024-12-05 03:03:51 [error]: GPS GATEWAY :
+2024-12-05 03:03:51 [info]: 127.0.0.1 - - [04/Dec/2024:21:33:51 +0000] "POST /lora/sendData HTTP/1.1" 500 33 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:04:23 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.12321|13.32432","s":1}
+2024-12-05 03:04:23 [info]: GPS GATEWAY : undefined
+2024-12-05 03:04:23 [error]: GPS GATEWAY :
+2024-12-05 03:04:23 [info]: 127.0.0.1 - - [04/Dec/2024:21:34:23 +0000] "POST /lora/sendData HTTP/1.1" 500 33 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:04:44 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.12321|13.32432","s":1}
+2024-12-05 03:04:44 [info]: GPS GATEWAY : undefined
+2024-12-05 03:04:44 [info]: 127.0.0.1 - - [04/Dec/2024:21:34:44 +0000] "POST /lora/sendData HTTP/1.1" 200 27 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:06:41 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.12321|13.32432","s":1}
+2024-12-05 03:06:41 [info]: GPS GATEWAY : undefined
+2024-12-05 03:06:41 [info]: 127.0.0.1 - - [04/Dec/2024:21:36:41 +0000] "POST /lora/sendData HTTP/1.1" 200 27 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:07:08 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.12321|13.32432","s":1}
+2024-12-05 03:07:08 [info]: GPS GATEWAY : undefined
+2024-12-05 03:07:08 [info]: 127.0.0.1 - - [04/Dec/2024:21:37:08 +0000] "POST /lora/sendData HTTP/1.1" 200 27 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:08:29 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.12321|13.32432","s":1}
+2024-12-05 03:08:29 [error]: GPS GATEWAY :
+2024-12-05 03:08:29 [info]: 127.0.0.1 - - [04/Dec/2024:21:38:29 +0000] "POST /lora/sendData HTTP/1.1" 500 33 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:09:14 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.12321|13.32432","s":1}
+2024-12-05 03:09:14 [error]: GPS GATEWAY :
+2024-12-05 03:09:14 [info]: 127.0.0.1 - - [04/Dec/2024:21:39:14 +0000] "POST /lora/sendData HTTP/1.1" 500 33 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:12:09 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.12321|13.32432","s":1}
+2024-12-05 03:12:09 [info]: GPS GATEWAY : AT+SEND=1,128|0000|80.12321|13.32432|1,0,3
+
+2024-12-05 03:12:09 [info]: 127.0.0.1 - - [04/Dec/2024:21:42:09 +0000] "POST /lora/sendData HTTP/1.1" 200 27 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:12:56 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.1232113.32432","s":1}
+2024-12-05 03:12:56 [error]: GPS GATEWAY :
+2024-12-05 03:12:56 [info]: 127.0.0.1 - - [04/Dec/2024:21:42:56 +0000] "POST /lora/sendData HTTP/1.1" 500 33 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:13:14 [info]: Inbound data for sendData: {"id":"128|0000","l":"80.1232113.32432","s":1}
+2024-12-05 03:13:14 [error]: GPS GATEWAY : Request failed with status code 400
+2024-12-05 03:13:14 [info]: 127.0.0.1 - - [04/Dec/2024:21:43:14 +0000] "POST /lora/sendData HTTP/1.1" 500 33 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:14:30 [info]: 172.31.255.254 - - [04/Dec/2024:21:44:30 +0000] "POST /api/reRoute/Gps HTTP/1.1" 200 119 "-" "got (https://github.com/sindresorhus/got)"
+2024-12-05 03:17:40 [info]: 127.0.0.1 - - [04/Dec/2024:21:47:40 +0000] "POST /api/reRoute/Gps HTTP/1.1" 500 93 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:17:58 [info]: GPS-REROUTE-RESPONSE: [object Object]
+2024-12-05 03:17:58 [info]: 127.0.0.1 - - [04/Dec/2024:21:47:58 +0000] "POST /api/reRoute/Gps HTTP/1.1" 200 275 "-" "PostmanRuntime/7.43.0"
+2024-12-05 03:18:51 [info]: GPS-REROUTE-RESPONSE: Vessel location saved successfully.
+2024-12-05 03:18:51 [info]: 127.0.0.1 - - [04/Dec/2024:21:48:51 +0000] "POST /api/reRoute/Gps HTTP/1.1" 200 275 "-" "PostmanRuntime/7.43.0"

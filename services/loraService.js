@@ -12,9 +12,9 @@ async function sendDataToGateway(data) {
         "Content-Type": "application/json",
       },
     });
-    console.log("Response from gateway:", response);
+    return response;
   } catch (error) {
-    console.error("Error sending data to gateway:", error.message);
+    throw error;
   }
 }
 
@@ -25,9 +25,9 @@ async function forwardChatDataToGateway(data) {
         "Content-Type": "application/json",
       },
     });
-    console.log("Response from gateway:", response);
+    return response;
   } catch (error) {
-    console.error("Error sending data to gateway:", error.message);
+    throw error;
   }
 }
 
