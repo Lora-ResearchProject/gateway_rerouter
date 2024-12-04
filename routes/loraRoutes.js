@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { sendDataToGateway } = require('../services/loraService')
+const { sendDataToGateway, forwardChatDataToGateway } = require('../services/loraService')
 
 //Function to check if data is recieved from the gateway
 router.post('/data', (req, res) => {
@@ -16,6 +16,14 @@ router.post('/sendData', (req, res) => {
     const response =  sendDataToGateway(inboundData);
     console.log('Data Sent to Gateway : ' , response);
     res.status(200).send('Data forwarded successfully'); 
+})
+
+router.post('/sendChatData', (req,res) => {
+  const inboundData = req.body;
+  console.log("INBOUND DATA : " , inboundData);
+  const response =  forwardChatDataToGateway(inboundData);
+  console.log('Data Sent to Gateway : ' , response);
+  res.status(200).send('Data forwarded');
 })
 
 module.exports = router;
